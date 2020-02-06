@@ -1,3 +1,3 @@
 FROM openjdk:8-jdk-alpine
-CMD docker login docker.io
+CMD docker login -u anutw789 -p Radha@345$$
 ADD target/jb-hello-world-maven-0.1.0.jar app.jar
